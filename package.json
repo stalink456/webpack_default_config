@@ -1,5 +1,5 @@
 {
-  "name": "webpack",
+  "name": "webpack_default_config",
   "version": "1.0.0",
   "main": "index.tsx",
   "private": true,
