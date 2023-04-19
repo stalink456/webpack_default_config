@@ -1,0 +1,67 @@
+:global(.slide_right) {
+  animation: slide_right 1s ease-in-out;
+}
+
+:global(.opacity) {
+  animation: opacity 0.5s ease-in-out;
+}
+
+:global(.fade_scale) {
+  animation: fade_scale 0.5s ease-in-out;
+}
+
+:global(.tooltip_visible) {
+  animation: tooltip_visible 1.5s ease-in-out;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide_right {
+  0% {
+    left: -200px;
+
+    opacity: 0;
+  }
+
+  100% {
+    left: 0;
+
+    opacity: 1;
+  }
+}
+
+@keyframes fade_scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes tooltip_visible {
+  0% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+
+  100% {
+    visibility: hidden;
+
+    opacity: 0;
+  }
+}

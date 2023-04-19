@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  min-height: 100vh;
+}
+
+.app__content {
+  margin: 0 auto auto;
+}
